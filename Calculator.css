@@ -1,0 +1,45 @@
+body{
+    background-image:url(sun-sky.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+}
+.container{
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgba(153,153,153,1);
+}
+#display{
+    text-align:right;
+    height: 70px;
+    line-height: 70px;
+    padding:16px 8px;
+    font-size: 25px;
+    
+
+}
+.buttons{
+    display: grid;
+    border-bottom: 2px solid black;
+    border-left: 1px solid black;
+     grid-template-columns:1fr 1fr 1fr 1fr;
+   border-top: 2px solid black;
+    border-right:1px solid black;
+}
+.button{
+    
+    line-height: 100px;
+    text-align: center;
+    font-size:25px;
+    cursor: pointer;
+    
+}
+.button:hover{
+    background-color: aqua;
+    transition: 0.5s;
+}
+
+#equal-sign:hover{
+    background-color: black;
+    color:white;
+    
+}
